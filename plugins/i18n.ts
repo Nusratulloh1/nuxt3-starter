@@ -11,6 +11,5 @@ export default defineNuxtPlugin(({ vueApp }) => {
     locale: 'uz',
     messages,
   })
-
   vueApp.use(i18n)
 })

@@ -32,7 +32,6 @@
     "types": [
       "@types/node",
       "@pinia/nuxt",
-      "@nuxtjs/i18n",
     ]
   },
 }

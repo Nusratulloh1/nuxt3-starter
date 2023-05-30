@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-3 p-10">
     <h1 class="text-3xl font-bold">
-      👋 Hello Nuxt 3 starter
+      👋 Hello {{ $t('main.name') }} starter
     </h1>
     <p>
       {{Store.sampleData}}
