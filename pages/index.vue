@@ -7,7 +7,7 @@
       {{Store.sampleData}}
     </p>
     <button
-      @click="changeSampleStoreData('✅ Hello from changed store!')"
+      @click="changeSampleStoreData('Hello from changed store!')"
       class="px-3 py-2 w-fit bg-gray-800 text-white"
     >
       Change state
@@ -16,12 +16,12 @@
 </template>
 
 
-<script setup>
+<script lang="ts" setup>
   import { useSampleStore } from '~/store/sample';
   
   const Store = useSampleStore();
 
-  function changeSampleStoreData(testString) {
+  function changeSampleStoreData(testString: string) {
     Store.setSampleData(testString);
   }
 
