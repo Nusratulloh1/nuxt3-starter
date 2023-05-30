@@ -1,7 +1,7 @@
-# Nuxt 3 Starter
+# Nuxt 3 Starter kit
 --
 
-## 🚀 Getting Started
+# Getting Started
 
 1. Clone or download this repository
 2. Run `yarn` or `yarn install` to install dependencies
