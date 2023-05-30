@@ -22,7 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.2, @antfu/utils@npm:^0.7.3":
+"@antfu/utils@npm:^0.7.2":
   version: 0.7.3
   resolution: "@antfu/utils@npm:0.7.3"
   checksum: 7caadbf94d974310c45023c875ae472b04644bc7aba9096ebf804f7611d94f83d9ef72474931d58480d0728f474df84a6db61bd29dd345e63f5fe9e0c1e132e1
@@ -12145,8 +12145,6 @@ __metadata:
     storybook: ^7.0.18
     tailwindcss: ^3.3.1
     typescript: ^5.0.4
-    unplugin-auto-import: ^0.16.4
-    unplugin-vue-components: ^0.25.0
     vite-svg-loader: ^4.0.0
     vitest: ^0.30.1
     vue-i18n: ^9.2.2
@@ -13562,56 +13560,6 @@ __metadata:
   version: 1.0.0
   resolution: "unpipe@npm:1.0.0"
   checksum: 4fa18d8d8d977c55cb09715385c203197105e10a6d220087ec819f50cb68870f02942244f1017565484237f1f8c5d3cd413631b1ae104d3096f24fdfde1b4aa2
-  languageName: node
-  linkType: hard
-
-"unplugin-auto-import@npm:^0.16.4":
-  version: 0.16.4
-  resolution: "unplugin-auto-import@npm:0.16.4"
-  dependencies:
-    "@antfu/utils": ^0.7.2
-    "@rollup/pluginutils": ^5.0.2
-    local-pkg: ^0.4.3
-    magic-string: ^0.30.0
-    minimatch: ^9.0.1
-    unimport: ^3.0.7
-    unplugin: ^1.3.1
-  peerDependencies:
-    "@nuxt/kit": ^3.2.2
-    "@vueuse/core": "*"
-  peerDependenciesMeta:
-    "@nuxt/kit":
-      optional: true
-    "@vueuse/core":
-      optional: true
-  checksum: 1a40aae5027f38ad39e4cd8f8710ebba7e23009704cbb7424c1e4553d3291feeae313d5094793d5a036f49fe44f1ccddf89ab66e6861e4e67f22d54499c84b36
-  languageName: node
-  linkType: hard
-
-"unplugin-vue-components@npm:^0.25.0":
-  version: 0.25.0
-  resolution: "unplugin-vue-components@npm:0.25.0"
-  dependencies:
-    "@antfu/utils": ^0.7.3
-    "@rollup/pluginutils": ^5.0.2
-    chokidar: ^3.5.3
-    debug: ^4.3.4
-    fast-glob: ^3.2.12
-    local-pkg: ^0.4.3
-    magic-string: ^0.30.0
-    minimatch: ^9.0.1
-    resolve: ^1.22.2
-    unplugin: ^1.3.1
-  peerDependencies:
-    "@babel/parser": ^7.15.8
-    "@nuxt/kit": ^3.2.2
-    vue: 2 || 3
-  peerDependenciesMeta:
-    "@babel/parser":
-      optional: true
-    "@nuxt/kit":
-      optional: true
-  checksum: 2ec409193ffb3af1bd033e31ef77fd93ca190b0080e18c46b7df9c6b9523c2e1942fd67016f47bb04a5617076d69b2fbdef5167a79cb72b8d46b313d87dc5232
   languageName: node
   linkType: hard
 
