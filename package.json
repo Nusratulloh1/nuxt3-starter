@@ -18,10 +18,10 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.3.2",
     "@storybook/addon-a11y": "^6.5.16",
-    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/builder-vite": "^0.2.7",
-    "@storybook/vue3": "^6.5.16",
+    "@storybook/builder-vite": "^7.0.18",
+    "@storybook/vue3": "^7.0.18",
     "@vitest/coverage-c8": "^0.30.1",
     "@vitest/ui": "^0.30.1",
     "nuxt": "^3.3.3",
