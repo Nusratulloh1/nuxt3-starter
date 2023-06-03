@@ -15,7 +15,6 @@
   </div>
 </template>
 
-
 <script lang="ts" setup>
   import { useSampleStore } from '~/store/sample';
   
